@@ -4,6 +4,7 @@ namespace MathLibrary
 {
     public class MathCalcs
     {
+        int c = 1;
         public double GetResult(double value)
         {
             double[] inputs = { 80, 60, 10, 20, 30 };
