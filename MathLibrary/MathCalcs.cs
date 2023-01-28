@@ -6,7 +6,7 @@ namespace MathLibrary
     {
         public double GetResult(double value)
         {
-            int a = 0;
+            int a = 1;
             double[] inputs = { 80, 60, 10, 20, 30 };
             double[] outputs = { 20, 40, 30, 50, 60 };
 
