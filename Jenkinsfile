@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        sh 'pwd'
+       sh dotnet build
       }
     }
 
