@@ -8,8 +8,8 @@ pipeline {
   stages {
     stage('') {
       steps {
-       sh 'dotnet build'
-      }
+       sh 'dotnet build --configuration Release'
+      } 
     }
 
   }
